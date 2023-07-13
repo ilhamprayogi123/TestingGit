@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: StringExampleTables_ja
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: ja
+  m_SharedData: {fileID: 11400000, guid: 63dd3979d4fc9e84b8fd3f67a6bf68ad, type: 2}
+  m_Metadata:
+    m_Items:
+    - rid: 4344704002449997842
+  m_TableData:
+  - m_Id: 664777666560
+    m_Localized: "\u3053\u3093\u306B\u3061\u306F\u7686\u3055\u3093"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22359668305920
+    m_Localized: "\u30B9\u30B3\u30A2: {0}"
+    m_Metadata:
+      m_Items:
+      - rid: 4344704002449997842
+  - m_Id: 29513397710848
+    m_Localized: "\u30B9\u30B3\u30A2\u3092\u5897\u3084\u3059"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45819622731776
+    m_Localized: "\u3042\u306A\u305F\u306B\u306F {brotherVar.brotherCount} \u5144\u5F1F
+      \u304C\u3044\u307E\u3059"
+    m_Metadata:
+      m_Items:
+      - rid: 4344704002449997842
+  - m_Id: 68812268777472
+    m_Localized: "\u3042\u306A\u305F\u306E\u540D\u524D\u306F {global.PlayerName}\u3001\u3042\u306A\u305F\u306E\u304A\u91D1\u306F
+      {moneyVar.moneyCount:C} \u3067\u3059\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 4344704002449997842
+  - m_Id: 79538798604288
+    m_Localized: "\u4ECA\u65E5\u306F {dateVar.dateTime:MMM d} \u3067\u3059"
+    m_Metadata:
+      m_Items:
+      - rid: 4344704002449997842
+  references:
+    version: 2
+    RefIds:
+    - rid: 4344704002449997842
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries: 003016045614000000305636ac2900000030d69a953e00000030d61157480000

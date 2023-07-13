@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: StringExampleTables_de
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: de
+  m_SharedData: {fileID: 11400000, guid: 63dd3979d4fc9e84b8fd3f67a6bf68ad, type: 2}
+  m_Metadata:
+    m_Items:
+    - rid: 4344704002449997840
+  m_TableData:
+  - m_Id: 664777666560
+    m_Localized: Hallo Leute
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22359668305920
+    m_Localized: 'Punktzahl: {0}'
+    m_Metadata:
+      m_Items:
+      - rid: 4344704002449997840
+  - m_Id: 29513397710848
+    m_Localized: "Punktestand erh\xF6hen"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45819622731776
+    m_Localized: "Du hast {brotherVar.brotherCount:plural:einen Bruder|{} Br\xFCder}"
+    m_Metadata:
+      m_Items:
+      - rid: 4344704002449997840
+  - m_Id: 68812268777472
+    m_Localized: Ihr Name ist {global.PlayerName} und Ihr Geld ist {moneyVar.moneyCount:C}
+    m_Metadata:
+      m_Items:
+      - rid: 4344704002449997840
+  - m_Id: 79538798604288
+    m_Localized: Heute ist {dateVar.dateTime:MMM d}
+    m_Metadata:
+      m_Items:
+      - rid: 4344704002449997840
+  references:
+    version: 2
+    RefIds:
+    - rid: 4344704002449997840
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries: 003016045614000000305636ac2900000030d69a953e00000030d61157480000

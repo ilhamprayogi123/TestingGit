@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: StringExampleTables Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: StringExampleTables
+  m_TableCollectionNameGuidString: 63dd3979d4fc9e84b8fd3f67a6bf68ad
+  m_Entries:
+  - m_Id: 664777666560
+    m_Key: exampleKey
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22359668305920
+    m_Key: dynamicKey
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29513397710848
+    m_Key: buttonText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45819622731776
+    m_Key: brotherTextKey
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68812268777472
+    m_Key: statusKey
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79538798604288
+    m_Key: dateKey
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 4344704002449997825
+  references:
+    version: 2
+    RefIds:
+    - rid: 4344704002449997825
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1686628020943
